@@ -64,7 +64,7 @@ function reset() {
 </script>
 
 <template>
-    <h1 class="text-4xl pt-4 pb-8 text-center">Wordle Clone</h1>
+    <h1 class="text-4xl pt-4 pb-8 text-center text-white">Wordle Clone</h1>
     <div class="flex flex-col gap-y-2 h-80v">
         <WordRow v-for="(answer, i) in answerArray" v-model:input="userInput[i]" :answerArray="colorArray[i]"/>
     </div>
